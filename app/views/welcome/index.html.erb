@@ -10,11 +10,11 @@
 
 		<% @img_title.each do |title| %>
 			<li>
-				<%= title %>
+				<%= title[18, 100] %>
 			
 			</li>
 		<% end %>
-		
+
 		<% @img_srcs.each do |image| %>
 			<li>
 				<img src='<%= image %>'> 
