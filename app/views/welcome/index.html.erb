@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+
+<body>
+	<div class="container">
+
+		<% @img_title.each do |title| %>
+			<li>
+				<%= title %>
+			
+			</li>
+		<% end %>
+		
+		<% @img_srcs.each do |image| %>
+			<li>
+				<img src='<%= image %>'> 
+		
+			</li>
+		<% end %>
+
+		
+
+
+	</div>
+</body>
+</html>
